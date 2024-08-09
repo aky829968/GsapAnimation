@@ -1,0 +1,160 @@
+@font-face {
+    font-family: china;
+    src: url('https://fonts.google.com/share?selection.family=Source+Sans+3:ital,wght@0,200..900;1,200..900');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: china;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+section{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    align-items: center;
+}
+nav div{
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+}
+.logo{
+    gap: 10px;
+}
+.logo i{
+    font-size: 19px;
+    rotate: 45deg;
+}
+nav button{
+    padding: 14px 25px;
+    font-size: 17px;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+
+}
+main{
+    width: 100%;
+    height: 68%;
+    padding: 0px 70px;
+    display: flex;
+    
+}
+.part1{
+    width: 45%;
+
+}
+.part1 h1{
+    font-size: 3.7rem;
+    margin: 25px 0 ;
+}
+.part1 p{
+    font-size: 16px;
+}
+.part1 button{
+    padding: 14px 25px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.part2{
+    width: 55%;
+    position: relative;
+}
+.part2 img{
+    position: absolute;
+    height: 100%;
+    left: 20%;
+    top: 7%;
+}
+.section2{
+    width: 100%;
+    height: 80%;
+    padding: 20px 70px;
+}
+.logos{
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.logos img{
+    width: 8%;
+    background: transparent;
+}
+.services{
+    padding: 80px 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.services h2{
+    font-size: 1.6rem;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: #BAFF66;
+}
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
+}
+.elem{
+    width: 45%;
+    height: 60%;
+    display: flex;
+    padding: 15px 20px;
+    border: 4px solid black;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 0px black;
+
+}
+.emem-part1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.emem-part1 h2{
+    font-size: 1.8rem;
+    background-color: #BAFF66;
+    width: 90%;
+}
+.emem-part1 h4{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.emem-part2{
+    width: 50%;
+    height: 100%;
+}
+
+.emem-part2 img{
+    height: 100%;
+}
+.black{
+    background: black;
+    color: white;
+    box-shadow: none;
+}
